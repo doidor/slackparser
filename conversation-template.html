@@ -1,0 +1,50 @@
+<html>
+	<header>
+		<title>Slack conversation export</title>
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
+
+		<style>
+			body {
+				font-family: Lato;
+			}
+
+			#conversationTable {
+				max-width: 1920px;
+				margin: 0 auto;
+			}
+
+			table {
+				border: 0px !important;
+			}
+
+			th, td {
+				min-width: 152px;
+				padding: 10px;
+				border: none;
+				border-collapse: collapse !important;
+			}
+
+			th {
+				background-color: #6c7ae0;
+				color: white;
+				font-size: 17px;
+				font-weight: 700;
+			}
+
+			td:nth-child(2) {
+				text-align: center;
+			}
+
+			tr:nth-child(even) {
+				background-color: #f8f6ff;
+			}
+
+		</style>
+	</header>
+
+	<body>
+		<div id="conversationTable">
+			%(BodyData)s
+		</div>
+	</body>
+</html>
