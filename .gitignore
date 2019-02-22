@@ -1,3 +1,3 @@
-exports/*
-imports/*
+output/*
+input/*
 __pycache__
