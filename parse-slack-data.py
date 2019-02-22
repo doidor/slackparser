@@ -10,8 +10,8 @@ from tabulate import tabulate
 from textwrap import wrap
 from lib import HTML
 
-IMPORTS_DIR = './imports/'
-EXPORTS_DIR = 'exports/'
+IMPORTS_DIR = './input/'
+EXPORTS_DIR = 'output/'
 
 EXPORTS_JSON = f'{EXPORTS_DIR}/conversation.json'
 EXPORTS_TXT = f'{EXPORTS_DIR}/conversation.txt'
